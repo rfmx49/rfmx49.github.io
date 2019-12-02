@@ -61,6 +61,7 @@ function getRegister() {
 }
 
 function sqlNewGameAccount(userName,deviceUUID,force) {
+	if (typeof SERVERNAME == 'undefined'){ return false; }
 	if (typeof force === 'undefined'){ force = "false" }
 	var status;
 	$.ajax({
@@ -139,6 +140,7 @@ function sqlNewGameAccount(userName,deviceUUID,force) {
 
 function sqlPostGame(score) {
 	//is this a cached game?
+	if (typeof SERVERNAME == 'undefined'){ return false; }
 	
 	if (score.daily == ""){
 		var dailyStr;

@@ -1,0 +1,104 @@
+TODO -
+
+Client:
+
+UI: 
+
+change rooms visited to a bar filling up with level on left of bar image of door maybe.
+change powerup to split button with notification like numbers click but which expands the circle giving powerup options.
+end button in bottom corner exit button open door.
+
+-change end screen 
+https://www.google.ca/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiAooPA--PLAhXIlh4KHX8DD-8QjBwIBA&url=http%3A%2F%2Fthumb7.shutterstock.com%2Fdisplay_pic_with_logo%2F709372%2F391118845%2Fstock-vector-level-panel-with-options-for-ui-game-illustration-of-a-funny-cartoon-design-ui-game-stone-level-391118845.jpg&psig=AFQjCNHfzdkz_9xXPdNtavNZGclCyNKx-A&ust=1459273776450206
+
+level on top and bonuses
+
+-Bonus not sure if possilbe
+Dead ends
+Loops(exit room only to renrter on opisite side)
+Loop 2nd hand(exit room but then reenter it through a new door.)
+random event room
+1x1 rooom
+empty room(larger than 3x3)
+room with over n doors levels (5,10,15)
+rooms with high ratio of walls to doors
+
+Animation.
+
+Quick animation to caculate score
+if not home this animation reverses after it is finished.
+
+-Hand draw.
+-Random Events.
+
+-Animaitons for:
+--Level Up
+--Hints
+
+-Options for:
+--game speed
+--Graphics
+
+Game
+-stairs
+
+
+
+Sounds
+Doors opening
+- https://www.freesound.org/people/Slanesh/sounds/31768/
+- https://www.freesound.org/people/pagancow/sounds/15419/
+- https://www.freesound.org/people/gabisaraceni/sounds/96961/
+- https://www.freesound.org/search/?q=door%20open&f=grouping_pack:%226228_Door%20opening%22%20&s=%22score%20desc%22&g=1&advanced=&a_tag=&a_filename=&a_description=&a_packname=&a_soundid=&a_username=
+- https://www.freesound.org/people/simpsi/sounds/175670/
+- https://www.freesound.org/people/ryancacophony/sounds/201989/
+
+Door Slam
+- https://www.freesound.org/people/thebraindrinker/sounds/268757/
+- https://www.freesound.org/people/Adam_N/sounds/164664/
+- https://www.freesound.org/people/winsx87/sounds/152015/
+- https://www.freesound.org/people/theshaggyfreak/sounds/274933/
+- https://www.freesound.org/people/theshaggyfreak/sounds/274937/
+Door Close
+Ambiance
+- rock my baby http://freesound.org/people/xtrgamr/sounds/268511/
+http://freesound.org/people/klankbeeld/sounds/203738/
+http://freesound.org/people/Hitrison/sounds/200194/
+http://freesound.org/people/Littlebrojay/sounds/195435/
+Music
+Effects
+-Lights off
+-Heart beat
+-Scream
+
+
+Server:
+
+client side
+-Confimration to submit game.
+
+-Cahce games if server not availible.
+
+- Display games
+- Display Daily Ranks
+
+- Game validation.
+
+- Mark user last login.
+- Mark number of failed logins. Track/block.
+- Mark number of failed user creation attempts.
+-	Limit user creations capacha possilbe on external app?
+- Google Auth.
+
+GAME SEED FOR TUTORIALS
+
+71398 - example of loop not great one. Top doors
+
+TEST ITEM 
+Crafty.e('2D, DOM, Color, testItem').attr({x: 0, y: 0, w: 9, h: 9, z: 1000}).color("#FFFFFF")
+Crafty('testItem').x = 10
+
+Other Data points to capture
+Hints used
+Doors gone thorugh
+

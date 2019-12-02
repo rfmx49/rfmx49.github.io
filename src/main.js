@@ -18,6 +18,7 @@ var gameSeeds = 100000;
 //DEBUG
 var DEBUGinstructions;
 var DEBUGreplay;
+var cordovaBuild = false;
 
 //DrawRoom Queue
 //A queue for all craft functions use EVAL to preform crafty operations.
@@ -86,7 +87,9 @@ var numOfDoorStyles = 6; //Max 6 must be defined in loading_js ex  "doorSprite3_
 $(document).ready(function() {
 	console.log( "Document completed!" );
 	//load cordova events in cordova.js
-	document.addEventListener("deviceready", onDeviceReady, false);
+	if (typeof onDeviceReady == 'undefined' && cordovaBuild){
+		document.addEventListener("deviceready", onDeviceReady, false);
+	}
 	//verify gameseed
 	verifySeed();
 
@@ -168,7 +171,7 @@ function beginCrafty() {
 		Crafty.scene('Loading');
 
 		//Attempt Login
-		if (typeof localStorage.username == 'undefined' || typeof localStorage.uuid == 'undefined') {
+		if ((typeof localStorage.username == 'undefined' || typeof localStorage.uuid == 'undefined') && typeof SERVERNAME != 'undefined') {
 			popUpDestroy();
 			popUpCreate('register');
 		}	

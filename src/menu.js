@@ -123,7 +123,14 @@ Crafty.scene('Menu', function() {
 		});
 
 	Crafty.viewport.centerOn(Crafty("btnContinue")[0],0)
-	displayAccounts();
+
+	setTimeout(function() {
+		if (typeof SERVERNAME != 'undefined'){ 
+			//displayAccounts();	
+		}
+	}, 300);
+	
+	
 });
 
 //from hud.js merging into menu.js to keep UI elements in same file.
@@ -363,6 +370,12 @@ function popUpClickHandlers() {
 		getRegister();
 	});
 
+	$( "#gamePopUp" ).on('mouseup', '#inputRegisterClose' ,function() {
+		console.log("clicked inputRegisterClose");
+		fadeView({alpha:{start:.5,end:0},fadeTime:300});
+		popUpDestroy();
+	});
+
 	$( "#gamePopUpStatus" ).on('mouseup', '#statusConfirm' ,function() {
 		popUpStatusDestroy();
 	});
@@ -557,6 +570,7 @@ function popUpCreate(type, data) {
 										</td>\
 										<td>\
 											<center><input id="inputRegisterSubmit" type="button" class="containsTextNormal" value="Register" /></center>\
+											<center><input id="inputRegisterClose" type="button" class="containsTextNormal" value="Close" /></center>\
 										</td>\
 									</tr>\
 								</table></form>'
@@ -690,6 +704,7 @@ function optionsMenu() {
 }
 
 function displayAccounts() {
+	if (typeof SERVERNAME == 'undefined'){ return false; }
 	$('#accountsContainer').css("visibility","visible");
 	$('#accountsContainer').css('top', '0px');
 	$('#accountsContainer').height(Crafty.viewport.height*.25);
@@ -709,7 +724,9 @@ function displayAccounts() {
 		html = '<a id="accountsRegister" href="#">Register/Login</a></div>';
 		if (typeof localStorage.username !== 'undefined'){
 			popUpCreate('register',{"userName":localStorage.username});
-		} else { popUpCreate('register') }
+		} else { 
+			popUpCreate('register');
+		}
 	}
 	$('#accountsContainer').html(html);
 	$('#accountsContainer').height($('#accountsDivs').height());
@@ -724,14 +741,14 @@ function hideAccounts() {
 }
 
 function accountsClickHandlers() {
-	//END GAME POPUP
-
 	$( "#accountsContainer" ).on('mouseup', '#accountsRegister' ,function() {
 		console.log('clicked register');
 		//check if username is created in localstorage
 		if (typeof localStorage.username !== 'undefined'){
 			popUpCreate('register',{"userName":localStorage.username});
-		} else { popUpCreate('register') }	
+		} else { 
+			popUpCreate('register'); 
+		}	
 	});
 
 	$( "#accountsContainer" ).on('mouseup', '#accountsLogout' ,function() {

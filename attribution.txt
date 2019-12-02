@@ -1,0 +1,105 @@
+Attributions:
+
+Javascript Libraries
+
+Title: jQuery 
+Author: JS Foundation
+Source: https://jquery.org
+License: MIT License - https://tldrlegal.com/license/mit-license
+File: lib/jquery-2.1.3.min.js
+
+Title: CraftyJs 
+Author: Active team members: starwed (maintainer), Kevin Simper, mucaho, Louis Stowasser
+Source: http://craftyjs.com/
+License: MIT License - https://tldrlegal.com/license/mit-license
+File: lib/crafty-min.js
+
+Title: Crafty Component Progressbar
+Author: mucaho - https://github.com/mucaho
+Source: https://github.com/mucaho/crafty-component-progressbar
+License: MIT License - https://tldrlegal.com/license/mit-license - https://raw.githubusercontent.com/mucaho/crafty-component-progressbar/master/LICENSE
+File: lib/ProgressBar.js
+
+Title: easystarjs
+Author: prettymuchbryce- https://github.com/prettymuchbryce/easystarjs
+Source: https://github.com/prettymuchbryce/easystarjs
+License: MIT License - https://tldrlegal.com/license/mit-license - https://raw.githubusercontent.com/prettymuchbryce/easystarjs/master/LICENSE
+File: lib/easystar/easystar-0.2.0.min.js.js
+
+Title: seedrandom
+Author: davidbau - https://github.com/davidbau
+Source: https://github.com/davidbau/seedrandom
+License: MIT License - https://tldrlegal.com/license/mit-license - https://github.com/davidbau/seedrandom
+File: lib/seedrandom/seedrandom.js
+
+TItle: chancejs
+Author: Victor Quinn - https://github.com/chancejs
+Source: https://github.com/chancejs/chancejs - https://raw.githubusercontent.com/chancejs/chancejs/master/LICENSE
+License: MIT License - https://tldrlegal.com/license/mit-license
+File: lib/chance/chancejs.min.js
+
+
+Audio Resources
+
+Title: porta_abrindo_2.wav
+Author: gabisaraceni - https://www.freesound.org/people/gabisaraceni/
+Source: https://www.freesound.org/people/gabisaraceni/sounds/96961/
+License: Creative Commons Sampling Plus 1.0 - http://creativecommons.org/licenses/sampling+/1.0/
+File: res/audio/doors/door_open_1.ogg
+Notes: Converted from .wav to .ogg
+
+Title: porta_abrindo_1.wav
+Author: gabisaraceni - https://www.freesound.org/people/gabisaraceni/
+Source: https://www.freesound.org/people/gabisaraceni/sounds/96960/
+License: Creative Commons Sampling Plus 1.0 - http://creativecommons.org/licenses/sampling+/1.0/
+File: res/audio/doors/door_open_2.ogg
+Notes: Converted from .wav to .ogg
+
+Title: porta_abrindo_3.wav
+Author: gabisaraceni - https://www.freesound.org/people/gabisaraceni/
+Source: https://www.freesound.org/people/gabisaraceni/sounds/96962/
+License: Creative Commons Sampling Plus 1.0 - http://creativecommons.org/licenses/sampling+/1.0/
+File: res/audio/doors/door_open_3.ogg
+Notes: Converted from .wav to .ogg
+
+Title: porta_abrindo_4.wav
+Author: gabisaraceni - https://www.freesound.org/people/gabisaraceni/
+Source: https://www.freesound.org/people/gabisaraceni/sounds/96963/
+License: Creative Commons Sampling Plus 1.0 - http://creativecommons.org/licenses/sampling+/1.0/
+File: res/audio/doors/door_open_4.ogg
+Notes: Converted from .wav to .ogg
+
+Title: porta_abrindo_5.wav
+Author: gabisaraceni - https://www.freesound.org/people/gabisaraceni/
+Source: https://www.freesound.org/people/gabisaraceni/sounds/96964/
+License: Creative Commons Sampling Plus 1.0 - http://creativecommons.org/licenses/sampling+/1.0/
+File: res/audio/doors/door_open_5.ogg
+Notes: Converted from .wav to .ogg
+
+Title: Porte open close.wav
+Author: Slanesh - https://www.freesound.org/people/Slanesh/
+Source: https://www.freesound.org/people/Slanesh/sounds/31768/
+License: License: Attribution 3.0 Unported (CC BY 3.0) - http://creativecommons.org/licenses/by/3.0/
+File: res/audio/doors/door_open_6.ogg
+Notes: Cut using Audacity & Converted from .wav to .ogg
+
+Title: woman_walking_on_stage.wav
+Author: harleto - https://www.freesound.org/people/harleto/
+Source: https://www.freesound.org/people/Slanesh/sounds/204468/
+License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+File: res/audio/player/walking.ogg
+Notes: Cut/sped up using Audacity & Converted from .wav to .ogg
+
+Title: Menu Selection.wav
+Author: morganpurkis - https://freesound.org/people/morganpurkis/
+Source: https://freesound.org/people/morganpurkis/sounds/376614/
+License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+File: res/audio/menu/menu_select.ogg
+Notes: Converted from .wav to .ogg
+
+Title: Success
+Author: fisch12345 - http://freesound.org/people/fisch12345/
+Source: http://freesound.org/people/fisch12345/sounds/325112/
+License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+File: res/audio/menu/award_hint.ogg
+Notes: Converted from .wav to .ogg
